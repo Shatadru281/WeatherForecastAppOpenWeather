@@ -1,12 +1,90 @@
-# React + Vite
+🚀 WeatherForecastApp – React Project
+🌟 A Simple Search & Weather & Climate Display Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tagline: Empowering users to search and view information with ease and simplicity.
 
-Currently, two official plugins are available:
+📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+WeatherForecast is a web application built with React and bundled using Vite, designed to showcase a clean, modern, and intuitive search functionality. Users can enter a place and instantly view relevant climate details along with dynamic dashboard displayed in a responsive, card-based layout.
 
-## Expanding the ESLint configuration
+This project demonstrates:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React component-based development.
+
+Effective state and props usage.
+
+Separation of concerns with modular CSS styling.
+
+A minimal yet professional UI/UX approach.
+
+It’s a great starting point for developers who want to explore React while building practical, real-world projects.
+
+✨ Features
+
+🔍 Search Functionality – Users can input queries and fetch corresponding results.
+
+🗂️ Card-Based Layout – Search results are neatly displayed in a card-style interface.
+
+🎨 Responsive Design – Adapts seamlessly across desktops, tablets, and mobile devices.
+
+🧩 Reusable React Components – Clean separation between components (e.g., SearchBox, InfoBox).
+
+⚡ Vite-Powered Build – Fast dev server and optimized production builds.
+
+🎭 CSS Styling – Component-specific CSS files for maintainability.
+
+✅ Linting with ESLint – Ensures code quality and consistent formatting.
+
+🧰 Tech Stack
+Category	Technology
+Frontend	React, CSS, HTML, JavaScript
+Build Tool	Vite
+Code Quality	ESLint
+Backend	None (client-side only)
+📁 Project Structure
+wanderlust/
+│── public/             # Static assets & index.html
+│── src/                # Source code
+│   ├── components/     # React components (SearchBox, InfoBox, etc.)
+│   ├── styles/         # CSS files
+│   └── App.jsx         # Root component
+│── vite.config.js      # Vite configuration
+│── package.json        # Dependencies & scripts
+│── eslint.config.js    # ESLint configuration
+
+⚙️ Getting Started
+1️⃣ Install Dependencies
+npm install
+# or
+yarn install
+
+2️⃣ Run the Development Server
+npm run dev
+# or
+yarn dev
+
+
+Open your browser at 👉 http://localhost:5173
+ (default Vite port).
+
+3️⃣ Build for Production
+npm run build
+
+4️⃣ Preview Production Build
+npm run preview
+
+🧪 Testing Instructions
+
+Run npm run dev and open the app locally.
+
+Test the search bar with various inputs.
+
+Check how results render in card format.
+
+Verify responsiveness across devices.
+
+	
+👤 Author
+
+Developed with ❤️ using React by SHATADRU ADHIKARY
+.
